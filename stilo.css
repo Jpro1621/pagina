@@ -1,52 +1,63 @@
+/* Fondo y tipografía */
 body {
-    font-family:'Montserrat', sans-serif;
-
+    font-family: 'Montserrat', sans-serif;
     margin: 40px;
     line-height: 1.5;
     background-color: rgb(0, 4, 24);
 }
 
-img {
-    border-radius: 10px;
+/* Título principal */
+#titulo-principal {
+    color: rgb(255, 230, 230);
+    font-size: 2.3rem;
 }
 
-table {
+/* Subtítulos */
+.subtitulo {
+    color: rgb(220, 210, 210);
+    margin-top: 25px;
+}
+
+/* Descripción principal */
+.descripcion {
+    color: rgb(172, 170, 170);
+    font-size: 1.1rem;
+}
+
+/* Imagen */
+#foto-perfil {
+    border-radius: 10px;
+    border: 2px solid rgb(150, 150, 150);
+}
+
+/* Redes sociales */
+.texto-redes a {
+    color: rgb(180, 180, 255);
+    text-decoration: none;
+}
+.texto-redes a:hover {
+    text-decoration: underline;
+}
+
+/* Listas */
+.lista-pasatiempos,.lista-tareas {
+    color: rgb(172, 170, 170);
+}
+
+/* Tabla */
+#tabla-horario {
     width: 300px;
     border-collapse: collapse;
 }
 
-table th, table td {
+#tabla-horario th, 
+#tabla-horario td {
     padding: 8px;
     text-align: center;
+    color: rgb(172, 170, 170);
 }
 
- h1, h2, h3, h4, h5, h6{
-
-    color: rgb(192, 176, 176);
- }
- p{
+/* Formulario */
+#form-contacto {
     color: rgb(172, 170, 170);
- }
- ul{
-    color: rgb(172, 170, 170);
- 
- }
-
- ol{
-    color: rgb(172, 170, 170);
- 
- }
- thead{
-    color: rgb(172, 170, 170);
- 
- }
-  tr{
-    color: rgb(172, 170, 170);
- 
-  }
-  
-  form{
-    color: rgb(172, 170, 170);
- 
-  
-  }
+}
